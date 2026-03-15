@@ -5,7 +5,8 @@
 
 set -e
 
-SRC_DIR="$HOME/Downloads/magikarp"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SRC_DIR="$SCRIPT_DIR/magikarp"
 THEME_NAME="Magikarp"
 BUILD_DIR="/tmp/magikarp_cursor_build"
 CURSORS_DIR="$BUILD_DIR/$THEME_NAME/cursors"
@@ -176,7 +177,7 @@ EOF
 # -------------------------------------------------------
 # Package
 # -------------------------------------------------------
-OUTPUT="$HOME/Downloads/${THEME_NAME}.tar.gz"
+OUTPUT="$SCRIPT_DIR/${THEME_NAME}.tar.gz"
 tar -czf "$OUTPUT" -C "$BUILD_DIR" "$THEME_NAME"
 
 echo ""
