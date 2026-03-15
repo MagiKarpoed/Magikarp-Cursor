@@ -3,7 +3,7 @@
 A pixel-art cursor theme for Linux/KDE based on Magikarp from Pokémon.  
 All cursors are animated and available in multiple sizes: **32 × 32, 48 × 48, 64 × 64, 96 × 96, 128 × 128 px**.
 
-
+![preview](https://github.com/user-attachments/assets/f4dec633-30ed-4d31-b58a-ccfcf583e9a5)
 
 ---
 
