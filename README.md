@@ -12,11 +12,10 @@ All cursors are animated and available in multiple sizes: **32 × 32, 48 × 48, 
 ### Option A — download release (recommended)
  
 1. Download `Magikarp.tar.gz` from the Releases page
-2. Extract to your icons directory:
-   ```bash
-   tar -xzf Magikarp.tar.gz -C ~/.local/share/icons/
-   ```
-3. Open **System Settings → Cursors** and select **Magikarp**
+2. Open **System Settings → Cursors → add from file** and select **Magikarp**
+
+<img width="231" height="165" alt="image" src="https://github.com/user-attachments/assets/eb3df337-7b20-459b-a8e5-2cb633d4df0c" />
+
  
 ### Option B — build from source
  
