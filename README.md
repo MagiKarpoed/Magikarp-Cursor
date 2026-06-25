@@ -29,7 +29,7 @@ pip install win2xcur
 #### Build
  
 ```bash
-git clone https://github.com/YOUR_USERNAME/magikarp-cursor
+git clone https://github.com/MagiKarpoed/magikarp-cursor
 cd magikarp-cursor
 chmod +x build_magikarp_cursor.sh
 ./build_magikarp_cursor.sh
